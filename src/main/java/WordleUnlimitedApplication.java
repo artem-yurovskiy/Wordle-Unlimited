@@ -26,7 +26,6 @@ public class WordleUnlimitedApplication extends Application implements EventHand
 
 	@Override
 	public void handle(KeyEvent keyBoardInput) {
-		// TODO Auto-generated method stub
 		if (keyBoardInput.getCode() == KeyCode.ENTER) {
 			wordleBoard.handleUserInput("ENTER");;
 		} else if (keyBoardInput.getCode() == KeyCode.BACK_SPACE) {

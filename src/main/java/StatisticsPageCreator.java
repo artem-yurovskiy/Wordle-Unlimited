@@ -19,11 +19,9 @@ import javafx.scene.text.TextAlignment;
 
 public class StatisticsPageCreator {
 	ArrayList<Integer> totalResults;
-	//WordleBoardCreator wordleBoard;
-	
+
 	public StatisticsPageCreator() {
 		totalResults = new ArrayList<>();
-		//wordleBoard = new WordleBoardCreator();
 	}
 	
 	public Parent makeStatisticsBoard() {
